@@ -156,7 +156,7 @@
     font-size: 2.5rem;
     font-weight: 600;
 }
-.title h1 span
+ .title h1 span
 {
     color: var(--primarycolor-orange);
     
@@ -203,4 +203,72 @@
     width: 13.5rem;
 }
 
+.packages .card
+{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+   
+}
+.packages .card img{
+    border-radius: 5px;
+}
+.packages .card .card-body
+{
+    background: transparent;
+}
+.packages .card .card-body h3
+{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.packages .card .card-body p
+{
+    
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
 
+.checked
+{
+    color: var(--primarycolor-orange);
+}
+.star i
+{
+    font-size: 1rem;
+}
+.packages .card .card-body h6
+{
+    font-size: 20px;
+}
+
+
+
+
+.services
+{
+    background: #f9f9f9;
+    margin-top: 50px;
+}
+.services .card
+{
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+}
+.services .card i
+{
+    font-size: 5rem;
+    text-align: center;
+    color: var(--primarycolor-orange);
+    margin-top: 1.5rem;
+}
+.services .card .card-body h3
+{
+    font-weight: 600;
+}
+.services .card .card-body{
+    text-align: center;
+}
