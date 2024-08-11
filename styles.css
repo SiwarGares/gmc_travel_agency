@@ -20,6 +20,7 @@
 #navbar
 {
     background-color: #f9f9f9;
+    
 }
 
 #logo
@@ -215,7 +216,13 @@
 }
 .packages .card .card-body
 {
+    align-items: center;
     background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   
 }
 .packages .card .card-body h3
 {
@@ -234,10 +241,12 @@
 .checked
 {
     color: var(--primarycolor-orange);
+    
 }
 .star i
 {
     font-size: 1rem;
+   
 }
 .packages .card .card-body h6
 {
@@ -253,6 +262,10 @@
     border-radius: 5px;
 }
 
+.packages .card .card-body .star
+{
+    align-items: center;
+}
 
 
 .services
@@ -293,11 +306,17 @@
     margin-top: 3rem;
 }
 
+.gallary .card
+{
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-top: 3rem;
+}
 .gallary .card img
 {
     max-width: 100%;
     max-height: 100%;
-    border-radius: 1rem;
+    
     border: none;
     transition: 0.5s ease;
 }
@@ -325,6 +344,8 @@
 
 .about .card
 {
+    border-radius:  1rem; 
+    overflow: hidden;
     border: none;
     box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
    
@@ -333,7 +354,7 @@
 .about .card img
 {
     border: none;
-     border-radius:  1rem; 
+     
 }
 
 .about h1
@@ -356,9 +377,7 @@
 
 footer
 {
-    margin-top: 4rem;
     background-color: #f9f9f9;
-
 }
 
 footer p 
@@ -377,21 +396,96 @@ footer .social-links
 
 footer .social-links i
 {
-    padding: 7px;
+    padding: 6px;
+    width :24px;
+
 
 }
 
 
+@media (max-width : 768px)
+{
+    .book form textarea
+    {
+       height: 5rem;
+    }
+
+    .book .card 
+    {
+        margin-top: 3rem;
+        
+    }
+    .book form .submit 
+    {
+        align-items: center;
+        /*display: flex;
+        justify-content: center;*/
+    }
+    .book
+     {
+        padding:0;
+     }
+
+    .packages .card
+    {
+        padding: 0;
+    }
+
+    
+    .about p 
+    {
+        font-size: 1rem;
+    }
+    .about .card 
+    {
+       margin-top: 60px;
+    
+    }
+   
+
+    #form-control {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 
+    .home .content h1
+     {
+        font-size: 40px;
+
+    }
+
+    
+}
+
+@media( max-width : 425px)
+{
+    .book form .submit 
+    {
+        align-items: center;
+        /*display: flex;
+        justify-content: center;*/
+    }
+    #form-control {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 
+}
 
+@media( max-width : 320px)
+{
+    .home .content h1
+    {
+         font-size: 40px;
+    }
+    .book
+    {
+      padding:0;
+    }
 
-
-
-
-
-
-
+}
 
